@@ -10,29 +10,29 @@
 ;(function(global, $) {
 
   // Function that returns a 'new' of an object
-  let Greetr = function(firstName, lastName, language) {
+  const Greetr = function(firstName, lastName, language) {
     // Return the results of a different function constructor, maybe like a .init in jQuery.
     // This allows us so we don't always need to setup future objects with the new keyword.
     return new Greetr.init(firstName, lastName, language);
     }
 
     // hidden within the scope of the IIFE and never directly accessible.
-    let supportedLangs = ['en', 'es'];
+    const supportedLangs = ['en', 'es'];
 
     // informal greetings.
-    let greetings = {
+    const greetings = {
       en: 'Hello',
       es: 'Hola',
     };
 
     // formal greetings.
-    let formalGreetings = {
+    const formalGreetings = {
       en: 'Greetings',
       es: 'Saludos',
     };
 
     // logger messages.
-    let logMessages = {
+    const logMessages = {
       en: 'Logged in',
       es: 'Inició sesión'
     }
@@ -132,7 +132,7 @@
     // The actual object is created here, allowing us to 'new' an object without calling 'new'
     Greetr.init = function(firstName, lastName, language) {
 
-      let self = this;
+      const self = this;
       self.firstName = firstName || '';
       self.lastName = lastName || '';
       self.language = language || 'en';
