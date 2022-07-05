@@ -1,14 +1,14 @@
-# Greetr framework
+# Greetr framework/library
 ## Created by Peter Yoo
 
 ---
 
 ### **About this framework**
 * When given a first name, last name, and optional language, it generates formal and informal greetings.
-* Uses G$ or Greetr syntax, similar to jQuery's $.
-* Able to create G$ objects from a constructor living inside the framework.
+* Uses `G$` or `Greetr` syntax, similar to jQuery's `$`.
+* Able to create `G$` objects from a constructor living inside the framework.
 * Able to be used as methods on top of jQuery selectors.
-* G$ objects are able to take 3 parameters. (firstName, lastName, language)
+* `G$` objects are able to take 3 parameters. (firstName, lastName, language)
 * Supports English and Spanish when retrieving messages.
 * Able to chain methods.
 
