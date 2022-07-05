@@ -10,7 +10,7 @@
 * Supports English and Spanish when retrieving messages.
 * Able to chain methods.
 
-## **What I've learned building this framework**
+## **What I've learned from building this framework**
 * Global Execution Context / Local Execution Context
   * Creation phase
     * Lexical environments
