@@ -23,6 +23,7 @@
 * Prototypal inheritance
   * Prototype chaining
 * Polyfill
+* Method chaining
 
 ---
 
