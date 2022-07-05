@@ -17,6 +17,10 @@
 ### **What I've learned building this framework**
 * Global Execution Context / Local Execution Context
   * Creation phase
+    * Lexical environments
+      * Environment records
+      * Reference to outer environment
+      * 'this'
   * Execution phase
 * Closures
 * IIFE's
