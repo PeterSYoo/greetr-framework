@@ -31,4 +31,6 @@
 
 ---
 
+### **Getting started**
+
 The actual framework lives in `greetr.js`, feel free to download it and try it out for yourself. There is a running example inside `index.html` and `app.js`.
