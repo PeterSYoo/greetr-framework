@@ -6,7 +6,7 @@
 * Uses `G$` or `Greetr` syntax, similar to jQuery's `$`.
 * Able to create `G$` objects from a constructor living inside the framework.
 * Able to use HTMLGreeting method on jQuery selectors.
-* `G$` objects are able to take 3 parameters, (firstName, lastName, language).
+* `G$` objects are able to take 3 arguments, (firstName, lastName, language).
 * Supports English and Spanish when retrieving messages.
 * Able to chain methods.
 
